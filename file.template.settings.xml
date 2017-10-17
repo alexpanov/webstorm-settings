@@ -1,0 +1,11 @@
+<application>
+  <component name="ExportableFileTemplateSettings">
+    <default_templates>
+      <template name="enzyme test.js" reformat="true" live-template-enabled="true" />
+      <template name="React component.js" reformat="true" live-template-enabled="true" />
+    </default_templates>
+    <includes_templates>
+      <template name="react-component.js" reformat="true" live-template-enabled="true" />
+    </includes_templates>
+  </component>
+</application>

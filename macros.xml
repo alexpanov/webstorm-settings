@@ -1,0 +1,22 @@
+<application>
+  <component name="ActionMacroManager">
+    <macro name="ProperSaveAll">
+      <action id="ReformatCode" />
+      <action id="OptimizeImports" />
+      <action id="SaveAll" />
+    </macro>
+    <macro name="SaveAll">
+      <action id="ReformatCode" />
+      <action id="RearrangeCode" />
+      <action id="OptimizeImports" />
+      <action id="SaveAll" />
+    </macro>
+    <macro name="SaveAllWithLint">
+      <action id="OptimizeImports" />
+      <action id="ReformatCode" />
+      <action id="RearrangeCode" />
+      <action id="Javascript.Linters.EsLint.Fix" />
+      <action id="SaveAll" />
+    </macro>
+  </component>
+</application>

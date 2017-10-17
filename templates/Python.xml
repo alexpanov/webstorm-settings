@@ -1,0 +1,54 @@
+<templateSet group="Python">
+  <template name="sout" value="print($BODY$)" description="print" toReformat="false" toShortenFQNames="true">
+    <variable name="BODY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="tm" value="    def test_$TEST_METHOD$(self):&#10;        $BODY$" description="Test Method" toReformat="false" toShortenFQNames="true">
+    <variable name="TEST_METHOD" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="BODY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="tc" value="from django.test import TestCase&#10;class $NAME$Tests(TestCase):&#10;    def test_$TEST_METHOD$(self):&#10;        $BODY$&#10;" description="New Test Case" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TEST_METHOD" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="BODY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="atc" value="from rest_framework.test import APITestCase&#10;class $NAME$ApiTests(APITestCase):&#10;    def test_$TEST_METHOD$(self):&#10;        $BODY$&#10;" description="Api Test Case" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TEST_METHOD" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="BODY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="set" value="def setUp(self):&#10;    super().setUp()&#10;    $BODY$        " description="setUp" toReformat="false" toShortenFQNames="true">
+    <variable name="BODY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="imh" value="from hamcrest import *" description="impor" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="ate" value="assert_that($left$, equal_to($right$))" description="assert_that equals" toReformat="false" toShortenFQNames="true">
+    <variable name="left" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="right" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="sao" value="        #setup&#10;        #action&#10;        #outcome" description="Setup, action, outcome scaffolding" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+</templateSet>

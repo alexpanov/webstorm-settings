@@ -1,0 +1,1 @@
+#parse("react-component.js")

@@ -1,0 +1,8 @@
+<templateSet group="Enzyme">
+  <template name="shw" value="const wrapper = shallow(&lt;$body$ /&gt;);" description="shallow wrapper" toReformat="true" toShortenFQNames="true">
+    <variable name="body" expression="" defaultValue="&quot;Component&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

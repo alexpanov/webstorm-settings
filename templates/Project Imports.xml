@@ -1,0 +1,52 @@
+<templateSet group="Project Imports">
+  <template name="impa" value="import Paper from '/imports/client/components/displayControls/Paper';&#10;" description="&lt;Paper /&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="imfac" value="import Factory, {participant} from '/imports/testSupport/factory';&#10;" description="Import Factory" toReformat="false" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="imlo" value="import Loader from '/imports/client/components/explainers/Loader';&#10;" description="Import &lt;Loader /&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="imdt" value="import DataTable from '/imports/client/components/data/DataTable';&#10;" description="Import &lt;DataTable /&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="imt" value="import {Tips} from '/imports/api/tips/tips';&#10;" description="Import Tips" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="imts" value="import {Tipsters} from '/imports/api/tipsters/tipsters';&#10;" description="Import Tipsters" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="imb" value="import {Bets} from '/imports/api/bets/bets';&#10;" description="Import bets" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="imue" value="import {UpcomingEvents} from '/imports/api/upcomingEvents/upcomingEvents';&#10;" description="Import Upcoming events" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="imfa" value="import Factory from '/imports/testSupport/factory';&#10;" description="Import Factory" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="imo" value="import moment from 'moment';&#10;" description="Import moment" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

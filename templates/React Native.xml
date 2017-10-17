@@ -1,0 +1,14 @@
+<templateSet group="React Native">
+  <template name="imv" value="import { View } from 'react-native'&#10;" description="Import View" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="tout" value="console.tron.display({&#10;  name: '$message$',&#10;  value: {&#10;    $value$&#10;  }&#10;})" description="Tron console log" toReformat="false" toShortenFQNames="true">
+    <variable name="message" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
